@@ -1,0 +1,83 @@
+\hypertarget{main_8cpp}{}\doxysection{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+
+
+Codigo principal del programa.  
+
+
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$cstdio$>$}\newline
+{\ttfamily \#include $<$getopt.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../include/sorted\+\_\+vector.\+hpp\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a5977928b042d0a4b2ce93baa979e5f5c}\label{main_8cpp_a5977928b042d0a4b2ce93baa979e5f5c}} 
+\#define {\bfseries L\+I\+M\+IT}~999
+\item 
+\mbox{\Hypertarget{main_8cpp_a70ed59adcb4159ac551058053e649640}\label{main_8cpp_a70ed59adcb4159ac551058053e649640}} 
+\#define {\bfseries S\+I\+ZE}~10
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}\label{main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}} 
+void \mbox{\hyperlink{main_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}{help}} ()
+\begin{DoxyCompactList}\small\item\em Guia para los usuarios. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_a7e15c8e2885871839fc2b820dfbdb4ce}\label{main_8cpp_a7e15c8e2885871839fc2b820dfbdb4ce}} 
+void \mbox{\hyperlink{main_8cpp_a7e15c8e2885871839fc2b820dfbdb4ce}{error}} ()
+\begin{DoxyCompactList}\small\item\em Mensaje de error. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Crea un vector desordenado aleatorio, y entonces lo ordena mediante el mergesort. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a3ca8454445b0739f5894088d4203319b}\label{main_8cpp_a3ca8454445b0739f5894088d4203319b}} 
+const option \mbox{\hyperlink{main_8cpp_a3ca8454445b0739f5894088d4203319b}{long\+\_\+options}} \mbox{[}$\,$\mbox{]} = \{ \{\char`\"{}help\char`\"{}, 0, 0, \textquotesingle{}h\textquotesingle{}\}, \{0, 0, 0, 0\} \}
+\begin{DoxyCompactList}\small\item\em Argumentos del programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Codigo principal del programa. 
+
+\begin{DoxyAuthor}{Author}
+Luis Marcelo Chinea Rangel~\newline
+Correo\+: \href{mailto:alu0101118116@ull.es}{\texttt{ alu0101118116@ull.\+es}} ~\newline
+Universidad de La Laguna ~\newline
+Escuela Superior de Ingenieria y Tecnologia~\newline
+Grado en Ingenieria Informatica~\newline
+Asignatura\+: Computabilidad y Algoritmia (CyA)~\newline
+Curso\+: 2º~\newline
+Practica \#13\+: Algoritmos Divide y Venceras (Divide \& Conquer) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+18/12/2019 
+\end{DoxyDate}
+\begin{DoxySeeAlso}{See also}
+Enunciado de la practica\+: \href{https://campusvirtual.ull.es/1920/mod/assign/view.php?id=21022}{\texttt{ https\+://campusvirtual.\+ull.\+es/1920/mod/assign/view.\+php?id=21022}} 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Crea un vector desordenado aleatorio, y entonces lo ordena mediante el mergesort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Numero de Argumentos \\
+\hline
+{\em argv} & Vector de Argumentos \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file main.\+cpp.
+
