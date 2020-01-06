@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
     
     cout << endl <<  "< |Merge Iterativo| >" << endl;
     cout << x << endl;
-    x.merge_sort();
+    x.iterative_merge_sort();
     cout << x << endl;
     
 	return 0;
